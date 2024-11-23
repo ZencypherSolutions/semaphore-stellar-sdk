@@ -18,7 +18,7 @@ Stellar's rapidly growing ecosystem lacks privacy-preserving solutions that are 
 For a deeper dive into Semaphore's Stellar integration, check out our complementary repositories:  
 - **[Semaphore Stellar Docs](https://github.com/ZencypherSolutions/semaphore-stellar-docs)**: Comprehensive documentation and research materials.  
 - **[Semaphore Stellar Contracts](https://github.com/ZencypherSolutions/semaphore-stellar-contracts)**: Core smart contracts for Stellar implementation.
-- **[Semaphore Stellar SDK](https://github.com/ZencypherSolutions/semaphore-stellar-sdk)**: Semaphore Stellar Software Development Kit (SDK) for easy integration.
+- **[Semaphore Stellar Boilerplate](https://github.com/ZencypherSolutions/semaphore-stellar-boilerplate)**: Well-structured foundation for developers looking to implement Semaphore on Stellar.
 
 
 ## Community Support
