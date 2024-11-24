@@ -131,31 +131,11 @@ You can do a regular commit by following the next:
 - chore: Other changes that don't modify src or test files.
 - revert: Reverts a previous commit.
 
-# **🔗 Branches**
-
-1. There must be a `main` branch, used only for the releases.
-2. There must be a `dev` branch, used to merge all the branches under it.
-3. Avoid long descriptive names for long-lived branches.
-4. Use kebab-case (no CamelCase).
-5. Use grouping tokens (words) at the beginning of your branch names (in a similar way to the `type` of commit).
-6. Define and use short lead tokens to differentiate branches in a way that is meaningful to your workflow.
-7. Use slashes to separate parts of your branch names.
-8. Remove your branch after merging it if it is not important.
-
-**Examples:**
-
-```
-git branch -b docs/readme
-git branch -b test/a-feature
-git branch -b feat/sidebar
-git branch -b fix/b-feature
-```
-
 # **🚨 Code of Conduct**
 
 ### **Contributor Covenant Code of Conduct.**
 
-- ### **Our Pledge**
+- ### **Our Pledge** 
 
 We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
