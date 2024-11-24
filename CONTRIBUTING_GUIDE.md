@@ -97,7 +97,7 @@ This is how I would tackle this issue:
 
 6. **Submit a Pull Request:** Submit a pull request to the `dev` branch of the Semaphore Stellar SDK repository.
 
-    - <a href="https://github.com/ZencypherSolutions/semaphore-stellar-sdk/compare" target="_blank"> Summit pull request</a>
+    - <a href="https://github.com/ZencypherSolutions/semaphore-stellar-sdk/pulls" target="_blank"> Summit pull request</a>
 
 
 
@@ -112,6 +112,8 @@ When you submit your PR (or later change that code), a CI build will automatical
 You can do a regular commit by following the next:
 
 ``` [type] significant message ```
+
+- <a href="https://www.conventionalcommits.org/en/v1.0.0/" target="_blank">Learn more about conventional commits</a>
 
 ### Type
 
