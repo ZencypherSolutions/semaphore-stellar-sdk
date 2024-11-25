@@ -79,7 +79,7 @@ This is how I would tackle this issue:
 
 #
 
-5. **Push fork:** Push to your fork and submit a pull request on our `dev` branch. Please provide us with some explanation of why you made the changes you made. For new features make sure to explain a standard use case to us.
+5. **Push fork:** Push to your fork and submit a pull request on our `main` branch. Please provide us with some explanation of why you made the changes you made. For new features make sure to explain a standard use case to us.
 
 - Push your changes to your forked repository:
     ```bash
@@ -95,7 +95,7 @@ This is how I would tackle this issue:
 
 #
 
-6. **Submit a Pull Request:** Submit a pull request to the `dev` branch of the Semaphore Stellar SDK repository.
+6. **Submit a Pull Request:** Submit a pull request to the `main` branch of the Semaphore Stellar SDK repository.
 
     - <a href="https://github.com/ZencypherSolutions/semaphore-stellar-sdk/pulls" target="_blank"> Summit pull request</a>
 
@@ -130,6 +130,22 @@ You can do a regular commit by following the next:
 - ci: Changes to CI configuration files and scripts (example scopes: travis, circle).
 - chore: Other changes that don't modify src or test files.
 - revert: Reverts a previous commit.
+
+# **🔗 Branches**
+1. There must be a `main` branch, used only for the releases.
+2. Avoid long descriptive names for long-lived branches.
+3. Use kebab-case (no CamelCase).
+4. Use grouping tokens (words) at the beginning of your branch names (in a similar way to the `type` of commit).
+5. Define and use short lead tokens to differentiate branches in a way that is meaningful to your workflow.
+6. Use slashes to separate parts of your branch names.
+7. Remove your branch after merging it if it is not important.
+**Examples:**
+```
+git branch -b docs/readme
+git branch -b test/a-feature
+git branch -b feat/sidebar
+git branch -b fix/b-feature
+```
 
 # **🚨 Code of Conduct**
 
@@ -189,3 +205,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+#
