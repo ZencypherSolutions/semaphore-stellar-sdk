@@ -1,0 +1,9 @@
+{
+    "name": "@semaphore-stellar-sdk/core",
+    "version": "1.0.0",
+    "description": "Core Semaphore stellar sdk functions",
+    "type": "module",
+    "main": "index.js",
+    "dependencies": {},
+    "keywords": []
+}

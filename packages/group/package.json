@@ -1,0 +1,13 @@
+{
+    "name": "@semaphore-protocol/group",
+    "version": "1.0.0",
+    "description": "Group management for Semaphore protocol",
+    "type": "module",
+    "main": "index.js",
+    "dependencies": {},
+    "keywords": [
+        "ethereum",
+        "semaphore",
+        "group"
+    ]
+}
