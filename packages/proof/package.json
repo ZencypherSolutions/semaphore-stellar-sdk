@@ -1,0 +1,9 @@
+{
+    "name": "@semaphore-stellar-sdk/proof",
+    "version": "1.0.0",
+    "description": "Zero-knowledge proof utilities for Semaphore stellar sdk",
+    "type": "module",
+    "main": "index.js",
+    "dependencies": {},
+    "keywords": []
+}
